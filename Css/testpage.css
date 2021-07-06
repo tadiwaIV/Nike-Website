@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+
+/*Body Styling*/
+
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+@import url(https://fonts.googleapis.com/css?family=Monoton);
+
+a:hover, a:link {
+  text-decoration: none;
+}
+
+body {
+  background-image: url('../img/Composite Photo.jpg'); 
+  font-family: 'Montserrat', arial, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.btn, a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  font-family: 'Montserrat', arial, sans-serif;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.btn .svg-inline--fa, a.btn .svg-inline--fa {
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.btn:focus, a.btn:focus {
+  color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+a.btn-cta-primary, .btn-cta-primary {
+  background: white;
+  border: 1px solid white;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+a.btn-cta-primary:hover, .btn-cta-primary:hover {
+  background: #cccccc;
+  border: 1px solid white;
+  color: black;
+}
+
+.bg-cover .text {
+  border-radius: 10px;
+  background: #202121;
+  border: 1px solid #464646;
+  color: #464646;
+  font-size: 16px;
+  padding: 8px 16px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Header NavBar*/
+
+.navbar .navbar-right a{
+  border-left: 1px solid #778492;
+  color: #f0f9ff;
+}
+
+.navbar .navbar-brand{
+  width: 5px;
+  height: 5px;
+}
+
+.navbar-custom{
+  background-color: #0b0b0b;
+}
+
+.navbar-custom .navbar-brand{ 
+  color: #f0f9ff; 
+} 
+
+.navbar .nav .nav-tab{
+  padding: 8px 8px;
+  color: #f0f9ff;
+}
+
+.navbar .nav-link{
+  color: #f0f9ff;
+}
+
+.navbar .nav-link:hover{
+  color: #666666;
+} 
+
+.navbar-nav .dropdown-menu{
+  background-color: #101111;  
+}
+
+.navbar-nav .dropdown-menu li a{;
+  color:#f0f9ff;
+}
+
+.dropdown .dropdown-item{
+  color: #333333;
+}
+
+
+.dropdown { 
+  position: static !important; 
+}
+
+.dropdown-menu .dropdown-header{
+  color: #f0f9ff;
+} 
+          
+.navbar-nav .dropdown-menu { 
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
+  margin-top: 0px !important; 
+  width: 100% !important; 
+}
+
+/*.navbar .dropdown .dropdown-menu {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 100% !important;
+}  */
+
+.navbar .navbar-nav{
+  text-align: center;
+}
+
+/*.dropdown:hover .dropdown-menu {
+  display: block;
+}  */
+
+body {
+    overflow-x: hidden;
+}
+
+.sidebar .sidebar-link{
+  color:white;
+  display: block;
+  padding: 10px 0 10px 0;
+}
+
+.sidebar .sidebar-link:hover {
+  text-decoration: none;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  font-size: 36px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  background-color: #0b0b0b;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+} 
+
+.checkbox .text{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 7px;
+
+}
+
+.sidebar::-webkit-scrollbar-track {
+
+}
+ 
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: grey;
+  width: 5px;
+   border-radius: 10px;
+
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover{
+}
+
+
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+}
+
+
+
